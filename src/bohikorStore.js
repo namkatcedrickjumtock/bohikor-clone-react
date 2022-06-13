@@ -5,10 +5,19 @@ const BohikorStore = () => {
         <section id="Bohikor_Score">
             <div className="container my-5 py-5">
                 <div className="row">
+                    <div className="col-lg-6" data-aos="fade-up">
+                        <img src='img/score-side-icon.png' alt='' className='img-fluid'  id='score-icon'/>
+                    </div>
+                    <div className="col-lg-6">
+                    <img src='img/side-icon.png' alt='' className='img-fluid float-right' id='score-icon'/>
+                    </div>
+                </div>
+
+                <div className="row">
                     <div className="col-lg-6">
                         <img src="img/bohikoScore.png" className="img-fluid" alt="" />
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6" data-aos="fade-up" >
                         <h2 className="text-secondary fw-bold">Bohikor Score</h2>
                         <p className="py-3 text-secondary">The Bohikor score is a rating of your finance habits and money management
                             skills
@@ -28,8 +37,9 @@ const BohikorStore = () => {
                             Its is a marker that lets lenders, financial institutions, business partners and others know your
                             competence in managing money and making financial decisions.
                         </p>
-                        <h4 className="fw-bold text-secondary">Take a quick quiz to get a rough estimate of how well you are standing.
-                        </h4>
+                        <h5 className="fw-bold text-secondary">Take a quick quiz to get a rough estimate of how well you are standing.
+                        </h5>
+                    <img src='img/side-icon.png' alt='' className='img-fluid float-right' id='score-icon'/>
                     </div>
                 </div>
                 <button className=" btn btn-warning mx-auto rounded-pill px-5" id="try-now-btn">Try Now <i

@@ -5,7 +5,7 @@ const Footer = () => {
         <footer id="footer">
         <div className="footer-top" >
           <div className="container">
-            <div className="row">
+            <div className="row d-flex justify-content-around">
               <div className="col-lg-3 col-md-4 footer-contact">
                 <img src="img/logo.png" alt=""/>
                 <p>About...</p>
@@ -16,7 +16,7 @@ const Footer = () => {
                   <a href="as" className="instagram"><i className="bx bxl-instagram"></i></a>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-8 footer-links " id="footer-leftCol">
+              <div className="col-lg-4  col-md-8 footer-links float-right   " id="footer-leftCol">
                 <h4>Address</h4>
                 <ul>
                   <li><b>Global Office</b></li>

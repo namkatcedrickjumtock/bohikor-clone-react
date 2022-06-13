@@ -5,7 +5,7 @@ const MoneyTherapySection = () => {
         <section id="Money_Transfer_Therapy">
         <div className="container py-5 my-5">
           <div className="row">
-            <div className="col-lg-7">
+            <div className="col-lg-5 col-xs-12 col-md-8">
               <h2 className="text-warning fw-bold">Money Therapy</h2>
               <p className="py-3 text-dark">The Bohikor Money Therapy (BMT) is a safe and non-judgmental space where you
                 can
@@ -24,11 +24,11 @@ const MoneyTherapySection = () => {
                 realistic
                 budgets
               </p>
-              <a href="https://play.google.com/store/apps/details?id=io.ikor.ikorfinance&hl=en-GB" className="bg-primary px-4 mx-auto d-block py-1 w-50 rounded-pill text-white fw-bold" >Get your First
+              <a href="https://play.google.com/store/apps/details?id=io.ikor.ikorfinance&hl=en-GB" className="bg-primary px-2 mx-auto d-block  w-50 py-3 text-decoration-none rounded-pill text-white fw-bold" > Get your First
                 Week Free<i className="bi bi-chevron-right"></i></a>
             </div>
-            <div className="col-lg-5">
-              <img src="img/money_therapy.png" className="img-fluid" alt="" id="therapy-bot"/>
+            <div className="col-lg-7 col-xs-12 col-md-8">
+              <img src="img/therapy.png" className="img-fluid w-100 h-100" alt="" id="therapy-bot"/>
             </div>
           </div>
           </div>
