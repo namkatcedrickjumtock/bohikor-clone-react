@@ -11,17 +11,16 @@ const ServicesBohikor = () => {
           <img src="img/bg-random-icon.png" className="float-right" alt="" />
         </div>
       </div>
-      <div className="row no-gutters">
+      <div className="row no-gutters" id="row">
         <div className="col-md-3  py-5">
           <h4 className=" text-dark"> <img id="iconFeatures" src="img/track.png" alt="" className="img-fluid" /> Spending
-            & Income
-            Tracker
+            & Income Tracker
           </h4>
           <p>Bohikor app has a very intuitive and simple-to-use expense tracking feature.</p>
         </div>
         <div className="col-md-3 py-5">
           <h4 className="text-dark"> <img id="iconFeatures" src="img/awards.png" alt="" className="img-fluid" />
-            Challenges & <br /> Awards
+            Challenges & Awards
           </h4>
           <p>Bohikor has a strategy that enhances good money practices.</p>
         </div>

@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer id="footer">
-        <div className="footer-top" >
+        <div className="footer-top mt-5 py-5" >
           <div className="container">
             <div className="row d-flex justify-content-around">
               <div className="col-lg-3 col-md-4 footer-contact">
@@ -16,16 +16,14 @@ const Footer = () => {
                   <a href="as" className="instagram"><i className="bx bxl-instagram"></i></a>
                 </div>
               </div>
-              <div className="col-lg-4  col-md-8 footer-links float-right   " id="footer-leftCol">
-                <h4>Address</h4>
-                <ul>
-                  <li><b>Global Office</b></li>
+              <div className="col-lg-4  col-md-8 footer-links float-right" id='leftsidefooter'>
+                <h4 className='text-primary'>Address</h4>
+                  <li><h4>Global Office</h4></li>
                   <li><a href="ds">651 N Broad St, Suite 206, Middletown, New Castle, DE</a></li>
-                  <li><b>Africa</b></li>
+                  <li><h4>Africa</h4></li>
                   <li><a href="ds">1st Trust Bank Building,
                       Great Soppo Buea branch, P.O BOX 138,
                       SW, Cameroon.</a></li>
-                </ul>
               </div>
             </div>
           </div>

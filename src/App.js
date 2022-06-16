@@ -6,7 +6,7 @@ import HeroSection from "./heroSection";
 import LastFooter from "./lastFooter";
 import MoneyTherapySection from "./moneyTherapySection";
 import SliderSection from "./sliderSection";
-import FaqLayout from "./FaqLayout";
+import Faq from "./faq";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <SliderSection />
       <MoneyTherapySection />
       <BohikorStore />
-      <FaqLayout/>
+      <Faq/>
       <Footer/>
       <LastFooter/>
     </>
