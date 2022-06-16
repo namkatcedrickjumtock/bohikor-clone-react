@@ -2,27 +2,25 @@ import React from 'react';
 
 const FaqSection = () => {
     return (
-        <section id="faq" className="faq section-bg fade-up " >
+        <section id="faq" className="faq section-bg" >
             <div className="container" data-="fade-up" id="FAQs">
-
-                <h2 className="text-center">FAQs</h2>
                 <div className="accordion-list container rounded">
+                <h2 className="text-dark fw-bold ">FAQs</h2>
                     <ul>
-                        <li data-="fade-up">
-                            <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" className="collapse"
-                                data-bs-target="#accordion-list-1">What is the Bohikor score?
-                                <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
-                            <div id="accordion-list-1" className="collapse-show" data-bs-parent=".accordion-list">
+                    <li>
+                            <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" href='#df'
+                                data-bs-target="#accordion-list-1" className="collapsed">What is the Bohikor score?<i
+                                    className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
+                            <div id="accordion-list-1" className="collapse" data-bs-parent=".accordion-list">
                                 <p>
-                                    The Bohikor score is a measure of how well you manage your money. It takes into account the percentage
+                                The Bohikor score is a measure of how well you manage your money. It takes into account the percentage
                                     you spend on each category of expenses, how frequently you save, how constant you are in meeting your
                                     savings goals, and what you put aside for your retirements and how well you invest your money.
                                 </p>
                             </div>
                         </li>
-
                         <li data-="fade-up" data--delay="100">
-                            <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                            <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" href='#df'
                                 data-bs-target="#accordion-list-2" className="collapsed">How do I change the language of the app? <i
                                     className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
                             <div id="accordion-list-2" className="collapse" data-bs-parent=".accordion-list">
@@ -34,7 +32,7 @@ const FaqSection = () => {
                         </li>
 
                         <li data-="fade-up" data--delay="200">
-                            <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                            <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" href='#df'
                                 data-bs-target="#accordion-list-3" className="collapsed">How can i improve my score? <i
                                     className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
                             <div id="accordion-list-3" className="collapse" data-bs-parent=".accordion-list">
@@ -47,7 +45,7 @@ const FaqSection = () => {
                         </li>
 
                         <li data-="fade-up" data--delay="300">
-                            <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                            <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" href='#df'
                                 data-bs-target="#accordion-list-4" className="collapsed">TCan I use the app offline? <i
                                     className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
                             <div id="accordion-list-4" className="collapse" data-bs-parent=".accordion-list">
@@ -58,7 +56,7 @@ const FaqSection = () => {
                         </li>
 
                         <li data-="fade-up" data--delay="400">
-                            <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                            <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" href='#df'
                                 data-bs-target="#accordion-list-5" className="collapsed">Why can I not stick to my budget? <i
                                     className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
                             <div id="accordion-list-5" className="collapse" data-bs-parent=".accordion-list">
@@ -70,7 +68,7 @@ const FaqSection = () => {
 
                         </li>
                         <li data-="fade-up" data--delay="400">
-                            <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                            <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" href='#df'
                                 data-bs-target="#accordion-list-6" className="collapsed">Why can I not stick to my budget? <i
                                     className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
                             <div id="accordion-list-6" className="collapse" data-bs-parent=".accordion-list">
@@ -81,7 +79,7 @@ const FaqSection = () => {
                             </div>
                         </li>
                         <li data-="fade-up" data--delay="400">
-                            <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                            <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" href='#df'
                                 data-bs-target="#accordion-list-7" className="collapsed">Why can I not stick to my budget? <i
                                     className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
                             <div id="accordion-list-7" className="collapse" data-bs-parent=".accordion-list">

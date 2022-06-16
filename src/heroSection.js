@@ -21,14 +21,15 @@ const HeroSection = () => {
                 <img
                   src="img/google.png"
                   alt=""
-                  className="img-fluid"
+                  className="img-fluid animate__animated animate__bounceInRight"
                 />
               </a>
               <a href="www.googleplay.com" className="download-btn">
                 <img
                   src="img/appstore.png"
                   alt=""
-                  className="img-fluid"
+                  className="img-fluid animate__animated animate__bounceInLeft"
+                  
                 />
               </a>
             </div>
@@ -37,7 +38,7 @@ const HeroSection = () => {
             <img
               src="img/celebrate.png"
               alt=""
-              className="img-fluid "
+              className="img-fluid animate__animated animate__bounce "
             />
           </div>
         </div>

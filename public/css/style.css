@@ -230,6 +230,8 @@ h6 {
 }
 #dwn-btn {
   display: flex;
+  padding: 0px;
+  margin: 0px;
 }
 
 @media (max-width: 991px) {
@@ -277,7 +279,17 @@ h6 {
 
 #iconFeatures{
   width: 1.5em;
-  margin-right: 0.2em;}
+  margin-right: 0.2em;
+}
+
+#row  h4 {
+  font-family: 'Open Sans' poppins;
+  font-size: 1.1em;
+}
+  #row  p {
+    padding:10px;
+    margin: 0px 15px;
+  }
 /* }
 
 /* --------------------------------------
@@ -288,8 +300,11 @@ Money therapy section
   background-color: #d47b0610;
 }
 #therapy-bot{
-  /* display: none; */
-  margin-top: -4em;
+  position: absolute;
+  margin-top: -5em;
+}
+#thera-icon{
+  max-width: 3em;
 }
 
 /* ---------------------------------------
@@ -308,7 +323,7 @@ Bohikor section
   #faq{
     background-image: url('../img/fag-bg.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     /* background-color: #0047e0; */
   } 
 .faq .accordion-list {
@@ -317,6 +332,7 @@ Bohikor section
 .faq .accordion-list ul {
   padding: 0;
   list-style: none;
+  background-color: #ffffff48;
 }
 .faq .accordion-list li + li {
   margin-top: 15px;
@@ -388,25 +404,15 @@ Bohikor section
   font-size: 14px;
   background: #eff2f8;
 }
-#footer .footer-top {
-  padding: 60px 0 30px 0;
-  background: #fff;
-}
+
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
 }
-#footer .footer-top .footer-contact h4 {
-  font-size: 22px;
-  margin: 0 0 30px 0;
-  padding: 2px 0 2px 0;
-  line-height: 1;
-  font-weight: 700;
-  color: #47536e;
-}
+
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #242935;
+  color: #34373db0;
   position: relative;
   padding-bottom: 12px;
 }
@@ -423,20 +429,16 @@ Bohikor section
   height: 36px;
   transition: 0.3s;
 }
- #footer-leftCol  ul  li {
-  list-style: none;
-  color: #242935;
-  text-decoration: none;
-}
-#footer-leftCol  ul li a {
-  text-decoration: none;
-  color: #2429358e;
-}
-#footer .footer-top 
-.twitter {
-  background: #0d919b;
-}
 
+#leftsidefooter {
+  list-style: none;
+}
+#leftsidefooter a{
+  text-decoration: none;
+  padding: 0%;
+  margin: 0%;
+  color: #090a0cb0;
+}
 .facebook {
   background: #0047e0;
 }
@@ -447,6 +449,10 @@ Bohikor section
 
 .linkedin {
   background: #4776db;
+}
+
+.twitter {
+  background: #44d3ff;
 }
 @media (max-width: 768px) {
   #footer .copyright,
