@@ -5,8 +5,7 @@ const HeroSection = () => {
     <section id="hero" className="d-flex align-items-between">
       <div className="container">
         <div className="row justify-content-between">
-          <div className="col-lg-6" data-aos="fade-up"
-            >
+          <div className="col-lg-6" >
             <h1 className="text-white text-3 fw-bold"> Track your spending and build better money Habits.</h1>
             <h5 className="text-white py-3">
               Bohikor helps you budget and manage your money in a fun way,
