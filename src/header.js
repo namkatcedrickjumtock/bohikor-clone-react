@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header id="header" className="fixed-top  header-transparent">
+    <header id="header" className="fixed-top">
       <div className="container d-flex align-items-center justify-content-between">
         <div className="logo">
           <a href="index.html">

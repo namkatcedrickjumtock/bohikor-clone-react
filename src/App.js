@@ -1,21 +1,23 @@
 import BohikorStore from "./bohikorStore";
-import FaqSection from "./faqSection";
-import FeaturesSection from "./featuresSection";
+import ServicesBohikor from "./servicesBohikor";
 import Footer from "./footer";
 import Header from "./header";
 import HeroSection from "./heroSection";
 import LastFooter from "./lastFooter";
 import MoneyTherapySection from "./moneyTherapySection";
+import SliderSection from "./sliderSection";
+import FaqLayout from "./FaqLayout";
 
 function App() {
   return (
     <>
       <Header />
       <HeroSection />
-      <FeaturesSection />
+      <ServicesBohikor />
+      <SliderSection />
       <MoneyTherapySection />
       <BohikorStore />
-      <FaqSection/>
+      <FaqLayout/>
       <Footer/>
       <LastFooter/>
     </>
