@@ -2,7 +2,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "poppins", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #585a61;
   /* overflow: hidden; */
 }
@@ -23,7 +23,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
 } */
 
 /*--------------------------------------------------------------
@@ -76,7 +75,6 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "poppins", sans-serif;
   font-size: 15px;
   color: #f6f7fa;
   white-space: nowrap;
@@ -273,7 +271,6 @@ h6 {
   --------------------------------------------------------------*/
 #features h3{
   font-weight: 900;
-  font-family:  "Opens Sans" sans-serif;
   font-size: 2.8em;
 }
 
@@ -283,8 +280,8 @@ h6 {
 }
 
 #row  h4 {
-  font-family: 'Open Sans' poppins;
   font-size: 1.1em;
+  font-weight: 700;
 }
   #row  p {
     padding:10px;
@@ -346,7 +343,6 @@ Bohikor section
 .faq .accordion-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -475,7 +471,6 @@ last footer section
   text-decoration: none;
   padding: 2px;
   color: #ffffff;
-  font-family: "Raleway", sans-serif;
 }
 
 
