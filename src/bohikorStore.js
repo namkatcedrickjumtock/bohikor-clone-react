@@ -18,7 +18,7 @@ const BohikorStore = () => {
                         <img src="img/bohikoScore.png" className="img-fluid" alt="" />
                     </div>
                     <div className="col-lg-6" data-aos="fade-up" >
-                        <h2 className="text-dark">Bohikor Score</h2>
+                        <h2 className="text-dark fw-bold">Bohikor Score</h2>
                         <p className="py-3 text-secondary">The Bohikor score is a rating of your finance habits and money management
                             skills
                             over a period of time. Our algorithm developed with insights from the top financial advisers, bankers and

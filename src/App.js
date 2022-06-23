@@ -5,8 +5,11 @@ import Header from "./header";
 import HeroSection from "./heroSection";
 import LastFooter from "./lastFooter";
 import MoneyTherapySection from "./moneyTherapySection";
-import SliderSection from "./sliderSection";
 import Faq from "./faq";
+import ContactForm from "./ContactForm";
+import SliderSection from "./SliderSection";
+
+
 
 function App() {
   return (
@@ -18,6 +21,7 @@ function App() {
       <MoneyTherapySection />
       <BohikorStore />
       <Faq/>
+      <ContactForm />
       <Footer/>
       <LastFooter/>
     </>
