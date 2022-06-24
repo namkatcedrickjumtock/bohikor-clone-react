@@ -16,6 +16,7 @@ const BohikorStore = () => {
                 <div className="row">
                     <div className="col-lg-6">
                         <img src="img/bohikoScore.png" className="img-fluid" alt="" />
+                        <button className=" btn btn-warning mx-auto d-block rounded-pill px-5 my-5">Try Now</button>
                     </div>
                     <div className="col-lg-6" data-aos="fade-up" >
                         <h2 className="text-dark fw-bold">Bohikor Score</h2>
@@ -39,12 +40,9 @@ const BohikorStore = () => {
                         </p>
                         <h5 className="fw-bold text-secondary">Take a quick quiz to get a rough estimate of how well you are standing.
                         </h5>
-                        <img src='img/side-icon.png' alt='' className='img-fluid float-right' id='score-icon' />
                     </div>
+                    <img src='img/side-icon.png' alt='' className='img-fluid float-right' id='score-icon' />
                 </div>
-                <button className=" btn btn-warning mx-auto rounded-pill px-5" id="try-now-btn">Try Now <i
-                    className="bi bi-chevron-right"></i></button>
-              
             </div>
            
         </section>
