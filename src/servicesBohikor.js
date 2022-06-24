@@ -11,7 +11,7 @@ const ServicesBohikor = () => {
           <img src="img/bg-random-icon.png" className="float-right" alt="" />
         </div>
       </div>
-      <div className="row no-gutters" id="row">
+      <div className="row no-gutters" id="row"> 
         <div className="col-md-3  py-5">
           <h4 className=" text-dark"> <img id="iconFeatures" src="img/track.png" alt="" className="img-fluid" /> Spending
             & Income Tracker

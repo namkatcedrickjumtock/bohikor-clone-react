@@ -26,10 +26,9 @@ const HeroSection = () => {
               </a>
               <a href="www.googleplay.com" className="download-btn">
                 <img
-                  src="img/appstore.png"
+                  src="img/appstore.png" id="Appleimg"
                   alt=""
-                  className="img-fluid animate__animated animate__bounceInLeft"
-                  
+                  className="img-fluid animate__animated animate__bounceInLeft "
                 />
               </a>
             </div>

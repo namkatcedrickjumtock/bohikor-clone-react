@@ -4,11 +4,10 @@ const FaqSection = () => {
     return (
         <section id="faq" className="faq section-bg" >
             <div className="container" data-="fade-up" id="FAQs">
-                <div className="accordion-list container rounded">
+                <div className="accordion-list container rounded w-auto">
                 <h2 className="text-dark fw-bold ">FAQs</h2>
                     <ul>
-                    <li>
-                            <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" href='#df'
+                    <li> <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" href='#df'
                                 data-bs-target="#accordion-list-1" className="collapsed">What is the Bohikor score?<i
                                     className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
                             <div id="accordion-list-1" className="collapse" data-bs-parent=".accordion-list">
