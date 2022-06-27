@@ -7,11 +7,10 @@ const LastFooter = () => {
         <div className="container pt-4">
           <a className="btn btn-link btn-floating text-decoration-none" href="#!" role="button">About</a>
           <a className="btn btn-link btn-floating text-decoration-none" href="#!" role="button">Privacy</a>
-          <a className="btn btn-link btn-floating text-decoration-none" href="#!" role="button">Terms</a>
+          <a className="btn btn-link btn-floating text-decoration-none" href="./Terms.html" >Terms</a>
           <a className="btn btn-link btn-floating text-decoration-none" href="#!" role="button">Contact Us</a>
           <a className="btn btn-link btn-floating text-decoration-none" href="#!" role="button">Features</a>
         </div>
-        
       </footer>
       <div className="container  text- p-3  d-block">
           <a className="text-" href="sa"> Copyright © 2022, Bohikor</a>
