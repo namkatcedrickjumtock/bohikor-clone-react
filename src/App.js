@@ -6,7 +6,9 @@ import HeroSection from "./heroSection";
 import LastFooter from "./lastFooter";
 import MoneyTherapySection from "./moneyTherapySection";
 import Faq from "./faq";
+import { React } from "react";
 import SliderSection from "./SliderSection";
+import Terms from "./Terms";
 
 
 
@@ -19,9 +21,10 @@ function App() {
       <SliderSection />
       <MoneyTherapySection />
       <BohikorStore />
-      <Faq/>
-      <Footer/>
-      <LastFooter/>
+      <Faq />
+      <Terms />
+      <Footer />
+      <LastFooter />
     </>
   );
 }
