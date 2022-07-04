@@ -307,11 +307,11 @@ Bohikor section
   #faq{
     background-image: url('../img/FAQ\ background.svg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
   } 
 .faq .accordion-list {
   padding: 0 100px;
-  background-color: #ffffffe2;
+  background-color: #ffffffaa;
   border-radius: 20%;
 }
 .faq .accordion-list ul {

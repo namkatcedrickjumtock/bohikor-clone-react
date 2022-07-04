@@ -22,7 +22,7 @@ function App() {
       <MoneyTherapySection />
       <BohikorStore />
       <Faq />
-      <Terms />
+      {/* <Terms /> */}
       <Footer />
       <LastFooter />
     </>

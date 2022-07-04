@@ -4,7 +4,6 @@ export default function SliderSection() {
   return (
     <div className="content">
       <div className="container">
-
         <div className="owl-carousel slide-one-item">
           <div className="d-md-flex testimony-29101 align-items-stretch">
             <div className="image" style={{ backgroundImage: "url('img/slider1.png')" }}></div>
