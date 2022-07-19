@@ -5,7 +5,7 @@ const Header = () => {
     <header id="header" className="fixed-top shadow-sm">
       <div className="container d-flex align-items-center justify-content-between">
         <div className="logo">
-          <a href="index.html">
+          <a href="/">
             <img src="img/white-bohikor.png" alt="" className="img-fluid" />
           </a>
         </div>
