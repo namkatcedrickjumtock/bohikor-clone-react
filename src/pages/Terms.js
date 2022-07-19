@@ -2,8 +2,8 @@ import React from 'react';
 
 const Terms = () => {
     return (
-        <div className='container bg-light w-50'>
-            <p>Bohikor Privacy Policy <br className='my-2' />
+        <div className='container bg-light w-50 py-5 my-5 mt-5'>
+            <p className='my-5'>Bohikor Privacy Policy <br className='my-5' />
                 Last updated May 2022</p>
 
             <p>Bohikor SAS respects the privacy of our users (“user” or “you”) and this Privacy Policy explains

@@ -4,18 +4,14 @@ const BohikorStore = () => {
     return (
         <section id="Bohikor_Score">
             <div className="container my-5 py-5">
-                <div className="row">
-                    <div className="col-lg-6" data-aos="fade-up">
-                        <img src='img/score-side-icon.png' alt='' className='img-fluid' id='score-icon' />
-                    </div>
-                    <div className="col-lg-6">
-                        <img src='img/side-icon.png' alt='' className='img-fluid float-right' id='score-icon' />
-                    </div>
+                <div className="d-flex justify-content-between">
+                        <img src='img/side-icon.png' alt='' className='img-fluid' id='score-icon' />
+                        <img src='img/right-icon.png' alt='' className='img-fluid float-right' id='score-icon' />
                 </div>
 
                 <div className="row">
                     <div className="col-lg-6">
-                        <img src="img/bohikoScore.png" className="img-fluid" alt="" />
+                        <img src="img/slider2.png" className="img-fluid" alt="" />
                         <button className=" btn btn-warning mx-auto d-block rounded-pill px-5 my-5">Try Now</button>
                     </div>
                     <div className="col-lg-6" data-aos="fade-up" >

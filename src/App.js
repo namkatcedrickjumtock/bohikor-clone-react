@@ -1,30 +1,25 @@
-import BohikorStore from "./bohikorStore";
-import ServicesBohikor from "./servicesBohikor";
-import Footer from "./footer";
-import Header from "./header";
-import HeroSection from "./heroSection";
-import LastFooter from "./lastFooter";
-import MoneyTherapySection from "./moneyTherapySection";
-import Faq from "./faq";
+import Footer from "./components/footer";
+import Header from "./components/header";
+import LastFooter from "./components/lastFooter";
 import { React } from "react";
-import SliderSection from "./SliderSection";
-import Terms from "./Terms";
-
-
+import Terms from "./pages/Terms";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <>
-      <Header />
-      <HeroSection />
-      <ServicesBohikor />
-      <SliderSection />
-      <MoneyTherapySection />
-      <BohikorStore />
-      <Faq />
-      {/* <Terms /> */}
-      <Footer />
-      <LastFooter />
+      <BrowserRouter>
+        <div className="conta-app">
+          <Header />
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/terms" element={<Terms />}/>
+          </Routes>
+          <Footer />
+          <LastFooter />
+        </div>
+      </BrowserRouter>
     </>
   );
 }

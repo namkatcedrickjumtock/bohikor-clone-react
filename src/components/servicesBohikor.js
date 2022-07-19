@@ -8,7 +8,7 @@ const ServicesBohikor = () => {
           <h3 className="text-dark fw-bold py-3">Why Bohikor?</h3>
         </div>
         <div className="col-md-6">
-          <img src="img/bg-random-icon.png" className="float-right" alt="" />
+          <img src="img/Group-645.png" className="float-right" alt="" />
         </div>
       </div>
       <div className="row no-gutters" id="row"> 

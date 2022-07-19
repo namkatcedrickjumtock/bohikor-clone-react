@@ -24,15 +24,11 @@ const MoneyTherapySection = () => {
               realistic
               budgets
             </p>
-            <a href="https://play.google.com/store/apps/details?id=io.ikor.ikorfinance&hl=en-GB" className="bg-primary px-4   mx-auto d-block w-50 py-1 text-decoration-none rounded-pill text-white fw-bold" > Get your First
+            <a href="https://play.google.com/store/apps/details?id=io.ikor.ikorfinance&hl=en-GB" className="bg-primary px-4  mx-auto d-block w-50 py-2 text-decoration-none rounded-pill text-white fw-bold" > Get your First
               Week Free</a>
           </div>
           <div className="col-lg-6 col-xs-12 col-md-8">
-            <img src="img/therapy.png" className="img-fluid h-100" alt="" id="therapy-bot" />
-          </div>
-          <div className='d-flex justify-content-between'>
-            <img src="img/score-side-icon.png" alt="" className="img-gluid py-1"  id='thera-icon'/>
-            <img src="img/side-icon.png" alt="" className="img-gluid py-1"  id='thera-icon'/>
+            <img src="img/sec.png" className="img-fluid h-100" alt="" id="therapy-bot" />
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ const Header = () => {
           </a>
         </div>
         <nav id="navbar" className="navbar">
-          <ul>
+          <ul id="ul-content">
             <li>
               <a className="nav-link scrollto " href="#hero">
                 Features
@@ -48,7 +48,7 @@ const Header = () => {
               </a>
             </li>
           </ul>
-          <i className="bi bi-list mobile-nav-toggle bg-light"></i>
+        <button  className="btn btn-outline-primary mx-3 d-lg-none d-xl-block d-md-none d-lg-block d-xl-none d-xxl-block" id="menu-btn"> <i class="bi bi-list text-white fw-bold"></i></button>
         </nav>
       </div>
     </header>

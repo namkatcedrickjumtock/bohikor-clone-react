@@ -35,7 +35,7 @@ const HeroSection = () => {
           </div>
           <div className="col-lg-6">
             <img
-              src="img/celebrate.png"
+              src="img/Bohikor-2x.png"
               alt=""
               className="img-fluid animate__animated animate__bounce "
             />
