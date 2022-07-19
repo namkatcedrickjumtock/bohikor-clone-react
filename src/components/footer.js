@@ -10,10 +10,10 @@ const Footer = () => {
                 <img src="img/logo.png" alt=""/>
                 <p>About...</p>
                 <div className="social-links mt-3">
-                  <a href="as" className="facebook"><i className="bx bxl-facebook"></i></a>
-                  <a href="as" className="linkedin"><i className="bx bxl-linkedin"></i></a>
-                  <a href="as" className="twitter"><i className="bx bxl-twitter"></i></a>
-                  <a href="as" className="instagram"><i className="bx bxl-instagram"></i></a>
+                  <a href="/" className="facebook"><i className="bx bxl-facebook"></i></a>
+                  <a href="/" className="linkedin"><i className="bx bxl-linkedin"></i></a>
+                  <a href="/" className="twitter"><i className="bx bxl-twitter"></i></a>
+                  <a href="/" className="instagram"><i className="bx bxl-instagram"></i></a>
                 </div>
               </div>
               <div className="col-lg-4  col-md-8 footer-links float-right" id='leftsidefooter'>
